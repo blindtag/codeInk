@@ -18,6 +18,7 @@ function handleChange(editor, data, value){
 
     return (
         <div className={`editor-container ${open ? '' : 'collapsed'}` }>
+        {/* custom title */}
             <div className='editor-title'>
                 {displayName}
                 <button 
@@ -28,6 +29,7 @@ function handleChange(editor, data, value){
                 }><FontAwesomeIcon icon={ open ? faCompressAlt : faExpandAlt}
                 /></button>
             </div>
+        {/* interface */}
             <ControlledEditor
             onBeforeChange={handleChange}
             value={value}
