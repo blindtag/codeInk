@@ -1,2 +1,2 @@
 # codeInk
-a codepen clone
+a simple codepen clone using react, codemirror
